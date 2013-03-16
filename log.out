@@ -1,0 +1,168 @@
+Initializing new StandardEnvironment
+Adding [systemProperties] PropertySource with lowest search precedence
+Adding [systemEnvironment] PropertySource with lowest search precedence
+Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@61201a5c: startup date [Thu Mar 14 14:19:03 EET 2013]; root of context hierarchy
+Initializing new StandardEnvironment
+Adding [systemProperties] PropertySource with lowest search precedence
+Adding [systemEnvironment] PropertySource with lowest search precedence
+Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+Initializing new StandardEnvironment
+Adding [systemProperties] PropertySource with lowest search precedence
+Adding [systemEnvironment] PropertySource with lowest search precedence
+Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+Loading XML bean definitions from class path resource [applicationContext.xml]
+Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+Loading schema mappings from [META-INF/spring.schemas]
+Loaded schema mappings: {http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee-3.2.xsd=org/springframework/ejb/config/spring-jee-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-3.1.xsd=org/springframework/beans/factory/xml/spring-beans-3.1.xsd, http://www.springframework.org/schema/task/spring-task.xsd=org/springframework/scheduling/config/spring-task-3.2.xsd, http://www.springframework.org/schema/cache/spring-cache.xsd=org/springframework/cache/config/spring-cache-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop-3.0.xsd=org/springframework/aop/config/spring-aop-3.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/task/spring-task-3.1.xsd=org/springframework/scheduling/config/spring-task-3.1.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool-3.1.xsd=org/springframework/beans/factory/xml/spring-tool-3.1.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee-3.1.xsd=org/springframework/ejb/config/spring-jee-3.1.xsd, http://www.springframework.org/schema/context/spring-context-3.2.xsd=org/springframework/context/config/spring-context-3.2.xsd, http://www.springframework.org/schema/util/spring-util-3.2.xsd=org/springframework/beans/factory/xml/spring-util-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/lang/spring-lang-3.2.xsd=org/springframework/scripting/config/spring-lang-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-3.0.xsd=org/springframework/beans/factory/xml/spring-beans-3.0.xsd, http://www.springframework.org/schema/cache/spring-cache-3.2.xsd=org/springframework/cache/config/spring-cache-3.2.xsd, http://www.springframework.org/schema/task/spring-task-3.0.xsd=org/springframework/scheduling/config/spring-task-3.0.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool-3.0.xsd=org/springframework/beans/factory/xml/spring-tool-3.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-3.2.xsd, http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/aop/spring-aop-3.2.xsd=org/springframework/aop/config/spring-aop-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee-3.0.xsd=org/springframework/ejb/config/spring-jee-3.0.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/context/spring-context-3.1.xsd=org/springframework/context/config/spring-context-3.1.xsd, http://www.springframework.org/schema/util/spring-util-3.1.xsd=org/springframework/beans/factory/xml/spring-util-3.1.xsd, http://www.springframework.org/schema/lang/spring-lang-3.1.xsd=org/springframework/scripting/config/spring-lang-3.1.xsd, http://www.springframework.org/schema/cache/spring-cache-3.1.xsd=org/springframework/cache/config/spring-cache-3.1.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-3.2.xsd=org/springframework/beans/factory/xml/spring-beans-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop-3.1.xsd=org/springframework/aop/config/spring-aop-3.1.xsd, http://www.springframework.org/schema/task/spring-task-3.2.xsd=org/springframework/scheduling/config/spring-task-3.2.xsd, http://www.springframework.org/schema/context/spring-context-3.0.xsd=org/springframework/context/config/spring-context-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-3.2.xsd, http://www.springframework.org/schema/util/spring-util-3.0.xsd=org/springframework/beans/factory/xml/spring-util-3.0.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/lang/spring-lang-3.0.xsd=org/springframework/scripting/config/spring-lang-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.2.xsd=org/springframework/beans/factory/xml/spring-tool-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd}
+Found XML schema [http://www.springframework.org/schema/beans/spring-beans.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.2.xsd
+Found XML schema [http://www.springframework.org/schema/context/spring-context.xsd] in classpath: org/springframework/context/config/spring-context-3.2.xsd
+Found XML schema [http://www.springframework.org/schema/tool/spring-tool-3.2.xsd] in classpath: org/springframework/beans/factory/xml/spring-tool-3.2.xsd
+Loading bean definitions
+Loaded NamespaceHandler mappings: {http://www.springframework.org/schema/p=org.springframework.beans.factory.xml.SimplePropertyNamespaceHandler, http://www.springframework.org/schema/util=org.springframework.beans.factory.xml.UtilNamespaceHandler, http://www.springframework.org/schema/jee=org.springframework.ejb.config.JeeNamespaceHandler, http://www.springframework.org/schema/aop=org.springframework.aop.config.AopNamespaceHandler, http://www.springframework.org/schema/cache=org.springframework.cache.config.CacheNamespaceHandler, http://www.springframework.org/schema/c=org.springframework.beans.factory.xml.SimpleConstructorNamespaceHandler, http://www.springframework.org/schema/task=org.springframework.scheduling.config.TaskNamespaceHandler, http://www.springframework.org/schema/lang=org.springframework.scripting.config.LangNamespaceHandler, http://www.springframework.org/schema/context=org.springframework.context.config.ContextNamespaceHandler}
+Initializing new StandardEnvironment
+Adding [systemProperties] PropertySource with lowest search precedence
+Adding [systemEnvironment] PropertySource with lowest search precedence
+Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+Looking for matching resources in directory tree [D:\Development\Workspace\HwCertifier\target\classes\se\zipper\hwcertifier\controller]
+Searching directory [D:\Development\Workspace\HwCertifier\target\classes\se\zipper\hwcertifier\controller] for files matching pattern [D:/Development/Workspace/HwCertifier/target/classes/se/zipper/hwcertifier/controller/**/*.class]
+Resolved location pattern [classpath*:se/zipper/hwcertifier/controller/**/*.class] to resources [file [D:\Development\Workspace\HwCertifier\target\classes\se\zipper\hwcertifier\controller\ActionController.class], file [D:\Development\Workspace\HwCertifier\target\classes\se\zipper\hwcertifier\controller\HelpController.class], file [D:\Development\Workspace\HwCertifier\target\classes\se\zipper\hwcertifier\controller\MatchController.class]]
+Identified candidate component class: file [D:\Development\Workspace\HwCertifier\target\classes\se\zipper\hwcertifier\controller\HelpController.class]
+Identified candidate component class: file [D:\Development\Workspace\HwCertifier\target\classes\se\zipper\hwcertifier\controller\MatchController.class]
+Initializing new StandardEnvironment
+Adding [systemProperties] PropertySource with lowest search precedence
+Adding [systemEnvironment] PropertySource with lowest search precedence
+Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+Looking for matching resources in directory tree [D:\Development\Workspace\HwCertifier\target\classes\se\zipper\hwcertifier\domain]
+Searching directory [D:\Development\Workspace\HwCertifier\target\classes\se\zipper\hwcertifier\domain] for files matching pattern [D:/Development/Workspace/HwCertifier/target/classes/se/zipper/hwcertifier/domain/**/*.class]
+Searching directory [D:\Development\Workspace\HwCertifier\target\classes\se\zipper\hwcertifier\domain\registry] for files matching pattern [D:/Development/Workspace/HwCertifier/target/classes/se/zipper/hwcertifier/domain/**/*.class]
+Resolved location pattern [classpath*:se/zipper/hwcertifier/domain/**/*.class] to resources [file [D:\Development\Workspace\HwCertifier\target\classes\se\zipper\hwcertifier\domain\Computer.class], file [D:\Development\Workspace\HwCertifier\target\classes\se\zipper\hwcertifier\domain\ComputerDevice.class], file [D:\Development\Workspace\HwCertifier\target\classes\se\zipper\hwcertifier\domain\DriverMatch$MatchType.class], file [D:\Development\Workspace\HwCertifier\target\classes\se\zipper\hwcertifier\domain\DriverMatch$MatchTypeSource.class], file [D:\Development\Workspace\HwCertifier\target\classes\se\zipper\hwcertifier\domain\DriverMatch.class], file [D:\Development\Workspace\HwCertifier\target\classes\se\zipper\hwcertifier\domain\DriverPackage.class], file [D:\Development\Workspace\HwCertifier\target\classes\se\zipper\hwcertifier\domain\registry\RegistryKey.class], file [D:\Development\Workspace\HwCertifier\target\classes\se\zipper\hwcertifier\domain\registry\RegistryValue.class], file [D:\Development\Workspace\HwCertifier\target\classes\se\zipper\hwcertifier\domain\registry\RegistryValues$Type.class], file [D:\Development\Workspace\HwCertifier\target\classes\se\zipper\hwcertifier\domain\registry\RegistryValues.class], file [D:\Development\Workspace\HwCertifier\target\classes\se\zipper\hwcertifier\domain\TaskRequest$OsBit.class], file [D:\Development\Workspace\HwCertifier\target\classes\se\zipper\hwcertifier\domain\TaskRequest$WinOs.class], file [D:\Development\Workspace\HwCertifier\target\classes\se\zipper\hwcertifier\domain\TaskRequest.class]]
+Identified candidate component class: file [D:\Development\Workspace\HwCertifier\target\classes\se\zipper\hwcertifier\domain\TaskRequest.class]
+Initializing new StandardEnvironment
+Adding [systemProperties] PropertySource with lowest search precedence
+Adding [systemEnvironment] PropertySource with lowest search precedence
+Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+Looking for matching resources in directory tree [D:\Development\Workspace\HwCertifier\target\classes\se\zipper\hwcertifier]
+Searching directory [D:\Development\Workspace\HwCertifier\target\classes\se\zipper\hwcertifier] for files matching pattern [D:/Development/Workspace/HwCertifier/target/classes/se/zipper/hwcertifier/*/impl/**/*.class]
+Searching directory [D:\Development\Workspace\HwCertifier\target\classes\se\zipper\hwcertifier\controller] for files matching pattern [D:/Development/Workspace/HwCertifier/target/classes/se/zipper/hwcertifier/*/impl/**/*.class]
+Searching directory [D:\Development\Workspace\HwCertifier\target\classes\se\zipper\hwcertifier\domain] for files matching pattern [D:/Development/Workspace/HwCertifier/target/classes/se/zipper/hwcertifier/*/impl/**/*.class]
+Searching directory [D:\Development\Workspace\HwCertifier\target\classes\se\zipper\hwcertifier\exception] for files matching pattern [D:/Development/Workspace/HwCertifier/target/classes/se/zipper/hwcertifier/*/impl/**/*.class]
+Searching directory [D:\Development\Workspace\HwCertifier\target\classes\se\zipper\hwcertifier\parsers] for files matching pattern [D:/Development/Workspace/HwCertifier/target/classes/se/zipper/hwcertifier/*/impl/**/*.class]
+Searching directory [D:\Development\Workspace\HwCertifier\target\classes\se\zipper\hwcertifier\repository] for files matching pattern [D:/Development/Workspace/HwCertifier/target/classes/se/zipper/hwcertifier/*/impl/**/*.class]
+Searching directory [D:\Development\Workspace\HwCertifier\target\classes\se\zipper\hwcertifier\repository\impl] for files matching pattern [D:/Development/Workspace/HwCertifier/target/classes/se/zipper/hwcertifier/*/impl/**/*.class]
+Searching directory [D:\Development\Workspace\HwCertifier\target\classes\se\zipper\hwcertifier\service] for files matching pattern [D:/Development/Workspace/HwCertifier/target/classes/se/zipper/hwcertifier/*/impl/**/*.class]
+Searching directory [D:\Development\Workspace\HwCertifier\target\classes\se\zipper\hwcertifier\service\impl] for files matching pattern [D:/Development/Workspace/HwCertifier/target/classes/se/zipper/hwcertifier/*/impl/**/*.class]
+Searching directory [D:\Development\Workspace\HwCertifier\target\classes\se\zipper\hwcertifier\views] for files matching pattern [D:/Development/Workspace/HwCertifier/target/classes/se/zipper/hwcertifier/*/impl/**/*.class]
+Resolved location pattern [classpath*:se/zipper/hwcertifier/*/impl/**/*.class] to resources [file [D:\Development\Workspace\HwCertifier\target\classes\se\zipper\hwcertifier\repository\impl\ComputerRepositoryImpl.class], file [D:\Development\Workspace\HwCertifier\target\classes\se\zipper\hwcertifier\repository\impl\DriverPackageRepositoryImpl.class], file [D:\Development\Workspace\HwCertifier\target\classes\se\zipper\hwcertifier\service\impl\DriverDatabaseServiceImpl$1.class], file [D:\Development\Workspace\HwCertifier\target\classes\se\zipper\hwcertifier\service\impl\DriverDatabaseServiceImpl.class]]
+Identified candidate component class: file [D:\Development\Workspace\HwCertifier\target\classes\se\zipper\hwcertifier\repository\impl\ComputerRepositoryImpl.class]
+Identified candidate component class: file [D:\Development\Workspace\HwCertifier\target\classes\se\zipper\hwcertifier\repository\impl\DriverPackageRepositoryImpl.class]
+Identified candidate component class: file [D:\Development\Workspace\HwCertifier\target\classes\se\zipper\hwcertifier\service\impl\DriverDatabaseServiceImpl.class]
+Initializing new StandardEnvironment
+Adding [systemProperties] PropertySource with lowest search precedence
+Adding [systemEnvironment] PropertySource with lowest search precedence
+Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+Looking for matching resources in directory tree [D:\Development\Workspace\HwCertifier\target\classes\se\zipper\hwcertifier\views]
+Searching directory [D:\Development\Workspace\HwCertifier\target\classes\se\zipper\hwcertifier\views] for files matching pattern [D:/Development/Workspace/HwCertifier/target/classes/se/zipper/hwcertifier/views/**/*.class]
+Resolved location pattern [classpath*:se/zipper/hwcertifier/views/**/*.class] to resources [file [D:\Development\Workspace\HwCertifier\target\classes\se\zipper\hwcertifier\views\HwCertifierView.class], file [D:\Development\Workspace\HwCertifier\target\classes\se\zipper\hwcertifier\views\TextFileView.class]]
+Identified candidate component class: file [D:\Development\Workspace\HwCertifier\target\classes\se\zipper\hwcertifier\views\TextFileView.class]
+Loaded 11 bean definitions from location pattern [applicationContext.xml]
+Bean factory for org.springframework.context.support.ClassPathXmlApplicationContext@61201a5c: org.springframework.beans.factory.support.DefaultListableBeanFactory@4f675ff4: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,helpController,matchController,taskRequest,computerRepositoryImpl,driverPackageRepository,driverDatabaseService,textFileView]; root of factory hierarchy
+Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+Creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+Eagerly caching bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' to allow for resolving potential circular references
+Finished creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+Creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+Eagerly caching bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' to allow for resolving potential circular references
+Finished creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+Creating shared instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+Creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+Eagerly caching bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' to allow for resolving potential circular references
+Finished creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+Creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+Eagerly caching bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' to allow for resolving potential circular references
+Finished creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor' to allow for resolving potential circular references
+Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@664259e4]
+Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@55692b33]
+Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@4f675ff4: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,helpController,matchController,taskRequest,computerRepositoryImpl,driverPackageRepository,driverDatabaseService,textFileView,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+Returning cached instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+Returning cached instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+Returning cached instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+Returning cached instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+Creating shared instance of singleton bean 'helpController'
+Creating instance of bean 'helpController'
+Eagerly caching bean 'helpController' to allow for resolving potential circular references
+Finished creating instance of bean 'helpController'
+Creating shared instance of singleton bean 'matchController'
+Creating instance of bean 'matchController'
+Registered injected element on class [se.zipper.hwcertifier.controller.MatchController]: AutowiredFieldElement for se.zipper.hwcertifier.domain.TaskRequest se.zipper.hwcertifier.controller.MatchController.taskRequest
+Registered injected element on class [se.zipper.hwcertifier.controller.MatchController]: AutowiredFieldElement for se.zipper.hwcertifier.views.HwCertifierView se.zipper.hwcertifier.controller.MatchController.view
+Registered injected element on class [se.zipper.hwcertifier.controller.MatchController]: AutowiredFieldElement for se.zipper.hwcertifier.repository.ComputerRepository se.zipper.hwcertifier.controller.MatchController.computerRepository
+Registered injected element on class [se.zipper.hwcertifier.controller.MatchController]: AutowiredFieldElement for se.zipper.hwcertifier.repository.DriverPackageRepository se.zipper.hwcertifier.controller.MatchController.driverPackageRepository
+Registered injected element on class [se.zipper.hwcertifier.controller.MatchController]: AutowiredFieldElement for se.zipper.hwcertifier.service.DriverDatabaseService se.zipper.hwcertifier.controller.MatchController.driverDatabaseService
+Eagerly caching bean 'matchController' to allow for resolving potential circular references
+Processing injected method of bean 'matchController': AutowiredFieldElement for se.zipper.hwcertifier.domain.TaskRequest se.zipper.hwcertifier.controller.MatchController.taskRequest
+Creating shared instance of singleton bean 'taskRequest'
+Creating instance of bean 'taskRequest'
+Eagerly caching bean 'taskRequest' to allow for resolving potential circular references
+Finished creating instance of bean 'taskRequest'
+Autowiring by type from bean name 'matchController' to bean named 'taskRequest'
+Processing injected method of bean 'matchController': AutowiredFieldElement for se.zipper.hwcertifier.views.HwCertifierView se.zipper.hwcertifier.controller.MatchController.view
+Creating shared instance of singleton bean 'textFileView'
+Creating instance of bean 'textFileView'
+Registered injected element on class [se.zipper.hwcertifier.views.TextFileView]: AutowiredFieldElement for se.zipper.hwcertifier.service.DriverDatabaseService se.zipper.hwcertifier.views.TextFileView.driverDatabaseService
+Eagerly caching bean 'textFileView' to allow for resolving potential circular references
+Processing injected method of bean 'textFileView': AutowiredFieldElement for se.zipper.hwcertifier.service.DriverDatabaseService se.zipper.hwcertifier.views.TextFileView.driverDatabaseService
+Creating shared instance of singleton bean 'driverDatabaseService'
+Creating instance of bean 'driverDatabaseService'
+Registered injected element on class [se.zipper.hwcertifier.service.impl.DriverDatabaseServiceImpl]: AutowiredFieldElement for se.zipper.hwcertifier.repository.DriverPackageRepository se.zipper.hwcertifier.service.impl.DriverDatabaseServiceImpl.driverPackageRepository
+Registered injected element on class [se.zipper.hwcertifier.service.impl.DriverDatabaseServiceImpl]: AutowiredFieldElement for se.zipper.hwcertifier.domain.TaskRequest se.zipper.hwcertifier.service.impl.DriverDatabaseServiceImpl.taskRequest
+Eagerly caching bean 'driverDatabaseService' to allow for resolving potential circular references
+Processing injected method of bean 'driverDatabaseService': AutowiredFieldElement for se.zipper.hwcertifier.repository.DriverPackageRepository se.zipper.hwcertifier.service.impl.DriverDatabaseServiceImpl.driverPackageRepository
+Creating shared instance of singleton bean 'driverPackageRepository'
+Creating instance of bean 'driverPackageRepository'
+Registered injected element on class [se.zipper.hwcertifier.repository.impl.DriverPackageRepositoryImpl]: AutowiredFieldElement for se.zipper.hwcertifier.domain.TaskRequest se.zipper.hwcertifier.repository.impl.DriverPackageRepositoryImpl.taskRequest
+Eagerly caching bean 'driverPackageRepository' to allow for resolving potential circular references
+Processing injected method of bean 'driverPackageRepository': AutowiredFieldElement for se.zipper.hwcertifier.domain.TaskRequest se.zipper.hwcertifier.repository.impl.DriverPackageRepositoryImpl.taskRequest
+Returning cached instance of singleton bean 'taskRequest'
+Autowiring by type from bean name 'driverPackageRepository' to bean named 'taskRequest'
+Finished creating instance of bean 'driverPackageRepository'
+Autowiring by type from bean name 'driverDatabaseService' to bean named 'driverPackageRepository'
+Processing injected method of bean 'driverDatabaseService': AutowiredFieldElement for se.zipper.hwcertifier.domain.TaskRequest se.zipper.hwcertifier.service.impl.DriverDatabaseServiceImpl.taskRequest
+Returning cached instance of singleton bean 'taskRequest'
+Autowiring by type from bean name 'driverDatabaseService' to bean named 'taskRequest'
+Finished creating instance of bean 'driverDatabaseService'
+Autowiring by type from bean name 'textFileView' to bean named 'driverDatabaseService'
+Finished creating instance of bean 'textFileView'
+Autowiring by type from bean name 'matchController' to bean named 'textFileView'
+Processing injected method of bean 'matchController': AutowiredFieldElement for se.zipper.hwcertifier.repository.ComputerRepository se.zipper.hwcertifier.controller.MatchController.computerRepository
+Creating shared instance of singleton bean 'computerRepositoryImpl'
+Creating instance of bean 'computerRepositoryImpl'
+Eagerly caching bean 'computerRepositoryImpl' to allow for resolving potential circular references
+Finished creating instance of bean 'computerRepositoryImpl'
+Autowiring by type from bean name 'matchController' to bean named 'computerRepositoryImpl'
+Processing injected method of bean 'matchController': AutowiredFieldElement for se.zipper.hwcertifier.repository.DriverPackageRepository se.zipper.hwcertifier.controller.MatchController.driverPackageRepository
+Returning cached instance of singleton bean 'driverPackageRepository'
+Autowiring by type from bean name 'matchController' to bean named 'driverPackageRepository'
+Processing injected method of bean 'matchController': AutowiredFieldElement for se.zipper.hwcertifier.service.DriverDatabaseService se.zipper.hwcertifier.controller.MatchController.driverDatabaseService
+Returning cached instance of singleton bean 'driverDatabaseService'
+Autowiring by type from bean name 'matchController' to bean named 'driverDatabaseService'
+Finished creating instance of bean 'matchController'
+Returning cached instance of singleton bean 'taskRequest'
+Returning cached instance of singleton bean 'computerRepositoryImpl'
+Returning cached instance of singleton bean 'driverPackageRepository'
+Returning cached instance of singleton bean 'driverDatabaseService'
+Returning cached instance of singleton bean 'textFileView'
+Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@63242048]
+Returning cached instance of singleton bean 'lifecycleProcessor'
+Searching for key 'spring.liveBeansView.mbeanDomain' in [systemProperties]
+Searching for key 'spring.liveBeansView.mbeanDomain' in [systemEnvironment]
+Could not find key 'spring.liveBeansView.mbeanDomain' in any property source. Returning [null]
+Returning cached instance of singleton bean 'taskRequest'
+Returning cached instance of singleton bean 'matchController'

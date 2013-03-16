@@ -1,0 +1,266 @@
+
+
+
+Parsing bus ACPI
+
+ACPI0003 ("@battery.inf,%msft%;Microsoft")
+	Found match, 1.HW_STD.ACPI_ACPI0003
+
+FixedButton ("@machine.inf,%gendev_mfg%;(Standard system devices)")
+
+GenuineIntel_-_Intel64_Family_6_Model_58_-_______Intel(R)_Core(TM)_i7-3720QM_CPU_@_2.60GHz ("@cpu.inf,%intel%;Intel")
+
+HPQ6000 ("@oem13.inf,%mfg%;Hewlett-Packard")
+	Found match, 1.HW_DRV.ACPI_HPQ6000
+			Driver 1. D:\Development\Workspace\HwCertifier\result\ACPI\HPQ6000\1.HW_DRV.ACPI_HPQ6000\1
+			Copying from D:\Development\Workspace\HwCertifier\drivers\sp59282\accelerometer.inf
+
+IFX0102 ("@tpm.inf,%std%;(Standard)")
+	Found match, 1.CO_STD._PNP0C31
+
+INT0800 ("@machine.inf,%intel_mfg%;Intel")
+	Found match, 1.HW_STD._INT0800
+
+INT340E ("@machine.inf,%gendev_mfg%;(Standard system devices)")
+	Found match, 1.CO_STD._PNP0C02
+
+PNP0000 ("@machine.inf,%gendev_mfg%;(Standard system devices)")
+	Found match, 1.HW_STD._PNP0000
+
+PNP0100 ("@machine.inf,%gendev_mfg%;(Standard system devices)")
+	Found match, 1.HW_STD._PNP0100
+
+PNP0103 ("@machine.inf,%gendev_mfg%;(Standard system devices)")
+	Found match, 1.HW_STD._PNP0103
+
+PNP0200 ("@machine.inf,%gendev_mfg%;(Standard system devices)")
+	Found match, 1.HW_STD._PNP0200
+
+PNP0303 ("@oem11.inf,%mfg%;Hewlett-Packard")
+	Found match, 1.HW_STD._PNP0303
+
+PNP0401 ("@msports.inf,%std%;(Standard port types)")
+	Found match, 1.HW_STD._PNP0401
+
+PNP0A06 ("@machine.inf,%gendev_mfg%;(Standard system devices)")
+	Found match, 1.HW_STD._PNP0A06
+
+PNP0A08 ("@oem35.inf,%stddev%;(Standard system devices)")
+	Found match, 1.HW_STD._PNP0A08
+	Found match, 2.CO_STD._PNP0A03
+
+PNP0B00 ("@machine.inf,%gendev_mfg%;(Standard system devices)")
+	Found match, 1.HW_STD._PNP0B00
+
+PNP0C02 ("@machine.inf,%gendev_mfg%;(Standard system devices)")
+	Found match, 1.HW_STD._PNP0C02
+
+PNP0C04 ("@machine.inf,%gendev_mfg%;(Standard system devices)")
+	Found match, 1.HW_STD._PNP0C04
+
+PNP0C09 ("@machine.inf,%gendev_mfg%;(Standard system devices)")
+	Found match, 1.HW_STD._PNP0C09
+
+PNP0C0A ("@battery.inf,%msft%;Microsoft")
+	Found match, 1.HW_STD.ACPI_PNP0C0A
+
+PNP0C0D ("@machine.inf,%gendev_mfg%;(Standard system devices)")
+	Found match, 1.HW_STD._PNP0C0D
+
+PNP0C0E ("@machine.inf,%gendev_mfg%;(Standard system devices)")
+	Found match, 1.HW_STD._PNP0C0E
+
+PNP0C14 ("@acpi.inf,%msft%;Microsoft")
+	Found match, 1.HW_STD._PNP0C14
+
+SYN019B ("@oem10.inf,%synmfg%;Synaptics")
+	Found match, 1.HW_DRV._SYN019B
+			Driver 1. D:\Development\Workspace\HwCertifier\result\ACPI\SYN019B\1.HW_DRV._SYN019B\1
+			Copying from D:\Development\Workspace\HwCertifier\drivers\sp58647\WinWDF\x64\synpd.inf
+			Driver 2. D:\Development\Workspace\HwCertifier\result\ACPI\SYN019B\1.HW_DRV._SYN019B\2
+			Copying from D:\Development\Workspace\HwCertifier\drivers\sp58647\WinWDF\x86\synpd.inf
+	Found match, 2.CO_DRV._SYN0100
+			Driver 1. D:\Development\Workspace\HwCertifier\result\ACPI\SYN019B\2.CO_DRV._SYN0100\1
+			Copying from D:\Development\Workspace\HwCertifier\drivers\sp58647\WinWDF\x64\synpd.inf
+			Driver 2. D:\Development\Workspace\HwCertifier\result\ACPI\SYN019B\2.CO_DRV._SYN0100\2
+			Copying from D:\Development\Workspace\HwCertifier\drivers\sp58647\WinWDF\x86\synpd.inf
+	Found match, 3.CO_DRV._PNP0F13
+			Driver 1. D:\Development\Workspace\HwCertifier\result\ACPI\SYN019B\3.CO_DRV._PNP0F13\1
+			Copying from D:\Development\Workspace\HwCertifier\drivers\sp58647\WinWDF\x64\synpd.inf
+			Driver 2. D:\Development\Workspace\HwCertifier\result\ACPI\SYN019B\3.CO_DRV._PNP0F13\2
+			Copying from D:\Development\Workspace\HwCertifier\drivers\sp58647\WinWDF\x86\synpd.inf
+
+ThermalZone ("@machine.inf,%gendev_mfg%;(Standard system devices)")
+
+
+
+Parsing bus USB
+
+ROOT_HUB20 ("@usbport.inf,%generic.mfg%;(Standard USB Host Controller)")
+	Found match, 1.HW_STD.USB_ROOT_HUB20
+
+VID_03F0&PID_361D ("@oem26.inf,%swi%;Sierra Wireless Incorporated")
+
+VID_03F0&PID_371D ("@oem28.inf,%stdmfg%;(Standard system devices)")
+	Found match, 1.CO_STD.USB_COMPOSITE
+
+VID_04F2&PID_B230 ("@usb.inf,%generic.mfg%;(Standard USB Host Controller)")
+	Found match, 1.CO_STD.USB_COMPOSITE
+
+VID_04F2&PID_B230&MI_00 ("@oem42.inf,%sxtimfg%;Sonix")
+	Found match, 1.HW_DRV.USB_VID_04F2_PID_B230_MI_00
+			Driver 1. D:\Development\Workspace\HwCertifier\result\USB\VID_04F2&PID_B230&MI_00\1.HW_DRV.USB_VID_04F2_PID_B230_MI_00\1
+			Copying from D:\Development\Workspace\HwCertifier\drivers\sp59343\Chicony\Sonix\Driver\snp2uvc.inf
+			Driver 2. D:\Development\Workspace\HwCertifier\result\USB\VID_04F2&PID_B230&MI_00\1.HW_DRV.USB_VID_04F2_PID_B230_MI_00\2
+			Copying from D:\Development\Workspace\HwCertifier\drivers\sp59343\Primax\Driver\snp2uvc.inf
+
+VID_0A5C&PID_21E1 ("@oem20.inf,%mfgname%;Broadcom")
+	Found match, 1.HW_DRV.USB_VID_0A5C_PID_21E1
+			Driver 1. D:\Development\Workspace\HwCertifier\result\USB\VID_0A5C&PID_21E1\1.HW_DRV.USB_VID_0A5C_PID_21E1\1
+			Copying from D:\Development\Workspace\HwCertifier\drivers\sp59021\Win32\bcbtums-win8x86-brcm.inf
+			Driver 2. D:\Development\Workspace\HwCertifier\result\USB\VID_0A5C&PID_21E1\1.HW_DRV.USB_VID_0A5C_PID_21E1\2
+			Copying from D:\Development\Workspace\HwCertifier\drivers\sp59021\Win64\bcbtums-win8x64-brcm.inf
+
+VID_1058&PID_0702 ("@usbstor.inf,%generic.mfg%;Compatible USB storage device")
+
+VID_138A&PID_003D ("@oem48.inf,%providername%;Validity Sensors, Inc.")
+
+VID_8087&PID_0024 ("@usb.inf,%generichub.mfg%;(Generic USB Hub)")
+
+Vid_03f0&Pid_371d&MI_00 ("@oem24.inf,%swi%;Sierra Wireless Incorporated")
+
+Vid_03f0&Pid_371d&MI_01 ("@oem26.inf,%swi%;Sierra Wireless Incorporated")
+
+Vid_03f0&Pid_371d&MI_02 ("@oem25.inf,%swi%;Sierra Wireless Incorporated")
+
+Vid_03f0&Pid_371d&MI_03 ("@oem27.inf,%swi%;Sierra Wireless Inc.")
+
+
+
+Parsing bus PCI
+
+VEN_10DE&DEV_0E1B&SUBSYS_176B103C&REV_A1 ("Microsoft")
+
+VEN_10DE&DEV_0FFB&SUBSYS_176B103C&REV_A1 ("@oem43.inf,%nvidia_a%;NVIDIA")
+	Found match, 1.CO_STD.PCI_CC_0300
+
+VEN_197B&DEV_2380&SUBSYS_176B103C&REV_30 ("@oem30.inf,%jmicron%;JMicron Technology Corp.")
+	Found match, 1.HW_DRV.PCI_VEN_197B_DEV_2380_SUBSYS_176B103C
+			Driver 1. D:\Development\Workspace\HwCertifier\result\PCI\VEN_197B&DEV_2380&SUBSYS_176B103C&REV_30\1.HW_DRV.PCI_VEN_197B_DEV_2380_SUBSYS_176B103C\1
+			Copying from D:\Development\Workspace\HwCertifier\drivers\sp59045\Driver1\Driver\Win7\x32\johcihG.inf
+			Driver 2. D:\Development\Workspace\HwCertifier\result\PCI\VEN_197B&DEV_2380&SUBSYS_176B103C&REV_30\1.HW_DRV.PCI_VEN_197B_DEV_2380_SUBSYS_176B103C\2
+			Copying from D:\Development\Workspace\HwCertifier\drivers\sp59045\Driver1\Driver\Win7\x32\johcihL.inf
+			Driver 3. D:\Development\Workspace\HwCertifier\result\PCI\VEN_197B&DEV_2380&SUBSYS_176B103C&REV_30\1.HW_DRV.PCI_VEN_197B_DEV_2380_SUBSYS_176B103C\3
+			Copying from D:\Development\Workspace\HwCertifier\drivers\sp59045\Driver1\Driver\Win7\x64\johcihG.inf
+			Driver 4. D:\Development\Workspace\HwCertifier\result\PCI\VEN_197B&DEV_2380&SUBSYS_176B103C&REV_30\1.HW_DRV.PCI_VEN_197B_DEV_2380_SUBSYS_176B103C\4
+			Copying from D:\Development\Workspace\HwCertifier\drivers\sp59045\Driver1\Driver\Win7\x64\johcihL.inf
+			Driver 5. D:\Development\Workspace\HwCertifier\result\PCI\VEN_197B&DEV_2380&SUBSYS_176B103C&REV_30\1.HW_DRV.PCI_VEN_197B_DEV_2380_SUBSYS_176B103C\5
+			Copying from D:\Development\Workspace\HwCertifier\drivers\sp59045\Driver1\Driver\XP_Vista\x32\johcih.inf
+			Driver 6. D:\Development\Workspace\HwCertifier\result\PCI\VEN_197B&DEV_2380&SUBSYS_176B103C&REV_30\1.HW_DRV.PCI_VEN_197B_DEV_2380_SUBSYS_176B103C\6
+			Copying from D:\Development\Workspace\HwCertifier\drivers\sp59045\Driver1\Driver\XP_Vista\x64\johcih.inf
+	Found match, 2.CO_STD.PCI_CC_0C0010
+
+VEN_197B&DEV_2391&SUBSYS_176B103C&REV_30 ("@oem31.inf,%jmicron%;JMicron Technology Corp.")
+	Found match, 1.HW_DRV.PCI_VEN_197B_DEV_2391_SUBSYS_176B103C
+			Driver 1. D:\Development\Workspace\HwCertifier\result\PCI\VEN_197B&DEV_2391&SUBSYS_176B103C&REV_30\1.HW_DRV.PCI_VEN_197B_DEV_2391_SUBSYS_176B103C\1
+			Copying from D:\Development\Workspace\HwCertifier\drivers\sp59045\Driver2\Driver\x32\jmcr_hp.inf
+			Driver 2. D:\Development\Workspace\HwCertifier\result\PCI\VEN_197B&DEV_2391&SUBSYS_176B103C&REV_30\1.HW_DRV.PCI_VEN_197B_DEV_2391_SUBSYS_176B103C\2
+			Copying from D:\Development\Workspace\HwCertifier\drivers\sp59045\Driver2\Driver\x64\jmcr_hp.inf
+	Found match, 2.CO_STD.PCI_CC_080501
+
+VEN_197B&DEV_2392&SUBSYS_176B103C&REV_30 ("@oem31.inf,%jmicron%;JMicron Technology Corp.")
+	Found match, 1.HW_DRV.PCI_VEN_197B_DEV_2392_SUBSYS_176B103C
+			Driver 1. D:\Development\Workspace\HwCertifier\result\PCI\VEN_197B&DEV_2392&SUBSYS_176B103C&REV_30\1.HW_DRV.PCI_VEN_197B_DEV_2392_SUBSYS_176B103C\1
+			Copying from D:\Development\Workspace\HwCertifier\drivers\sp59045\Driver2\Driver\x32\jmcr_hp.inf
+			Driver 2. D:\Development\Workspace\HwCertifier\result\PCI\VEN_197B&DEV_2392&SUBSYS_176B103C&REV_30\1.HW_DRV.PCI_VEN_197B_DEV_2392_SUBSYS_176B103C\2
+			Copying from D:\Development\Workspace\HwCertifier\drivers\sp59045\Driver2\Driver\x64\jmcr_hp.inf
+
+VEN_8086&DEV_0085&SUBSYS_13118086&REV_34 ("@oem38.inf,%company_name%;Intel Corporation")
+
+VEN_8086&DEV_0151&SUBSYS_20108086&REV_09 ("@oem4.inf,%intel%;Intel")
+	Found match, 1.CO_STD.PCI_VEN_8086_DEV_0151
+	Found match, 2.CO_STD.PCI_CC_0604_DT_4
+	Found match, 3.CO_STD.PCI_CC_0604
+
+VEN_8086&DEV_0154&SUBSYS_176B103C&REV_09 ("@oem4.inf,%intel%;Intel")
+	Found match, 1.CO_STD.PCI_VEN_8086_DEV_0154
+	Found match, 2.CO_STD.PCI_CC_0600
+
+VEN_8086&DEV_1502&SUBSYS_17AA103C&REV_04 ("@oem8.inf,%intel%;Intel")
+
+VEN_8086&DEV_1E03&SUBSYS_176B103C&REV_04 ("@oem2.inf,%intel%;Intel")
+
+VEN_8086&DEV_1E10&SUBSYS_176B103C&REV_C4 ("@oem5.inf,%intel%;Intel")
+	Found match, 1.CO_STD.PCI_VEN_8086_DEV_1E10
+	Found match, 2.CO_STD.PCI_CC_0604_DT_4
+	Found match, 3.CO_STD.PCI_CC_0604
+
+VEN_8086&DEV_1E12&SUBSYS_176B103C&REV_C4 ("@oem5.inf,%intel%;Intel")
+	Found match, 1.CO_STD.PCI_VEN_8086_DEV_1E12
+	Found match, 2.CO_STD.PCI_CC_0604_DT_4
+	Found match, 3.CO_STD.PCI_CC_0604
+
+VEN_8086&DEV_1E14&SUBSYS_176B103C&REV_C4 ("@oem5.inf,%intel%;Intel")
+	Found match, 1.CO_STD.PCI_VEN_8086_DEV_1E14
+	Found match, 2.CO_STD.PCI_CC_0604_DT_4
+	Found match, 3.CO_STD.PCI_CC_0604
+
+VEN_8086&DEV_1E16&SUBSYS_176B103C&REV_C4 ("@oem5.inf,%intel%;Intel")
+	Found match, 1.CO_STD.PCI_VEN_8086_DEV_1E16
+	Found match, 2.CO_STD.PCI_CC_0604_DT_4
+	Found match, 3.CO_STD.PCI_CC_0604
+
+VEN_8086&DEV_1E20&SUBSYS_176B103C&REV_04 ("Microsoft")
+
+VEN_8086&DEV_1E22&SUBSYS_176B103C&REV_04 ("@oem9.inf,%synmfg%;Synaptics")
+	Found match, 1.HW_DRV.PCI_VEN_8086_DEV_1E22_CC_0C05
+			Driver 1. D:\Development\Workspace\HwCertifier\result\PCI\VEN_8086&DEV_1E22&SUBSYS_176B103C&REV_04\1.HW_DRV.PCI_VEN_8086_DEV_1E22_CC_0C05\1
+			Copying from D:\Development\Workspace\HwCertifier\drivers\sp58647\WinWDF\x64\SmbDrv.inf
+	Found match, 2.CO_STD.PCI_VEN_8086_DEV_1E22
+
+VEN_8086&DEV_1E26&SUBSYS_176B103C&REV_04 ("@oem7.inf,%intel%;Intel")
+	Found match, 1.CO_STD.PCI_CC_0C0320
+
+VEN_8086&DEV_1E2D&SUBSYS_176B103C&REV_04 ("@oem7.inf,%intel%;Intel")
+	Found match, 1.CO_STD.PCI_CC_0C0320
+
+VEN_8086&DEV_1E31&SUBSYS_176B103C&REV_04 ("Intel(R) Corporation")
+	Found match, 1.CO_STD.PCI_VEN_8086_DEV_1E31
+	Found match, 2.CO_STD.PCI_CC_0C0330
+
+VEN_8086&DEV_1E3A&SUBSYS_176B103C&REV_04 ("@oem29.inf,%mfgname%;Intel")
+	Found match, 1.CO_DRV.PCI_VEN_8086_DEV_1E3A
+			Driver 1. D:\Development\Workspace\HwCertifier\result\PCI\VEN_8086&DEV_1E3A&SUBSYS_176B103C&REV_04\1.CO_DRV.PCI_VEN_8086_DEV_1E3A\1
+			Copying from D:\Development\Workspace\HwCertifier\drivers\sp58738\Drivers\MEI\HECI.inf
+
+VEN_8086&DEV_1E55&SUBSYS_176B103C&REV_04 ("@oem5.inf,%intel%;Intel")
+	Found match, 1.CO_STD.PCI_VEN_8086_DEV_1E55
+	Found match, 2.CO_STD.PCI_CC_0601
+
+
+
+Parsing bus HDAUDIO
+
+FUNC_01&VEN_10DE&DEV_0042&SUBSYS_103C176B&REV_1001 ("@oem44.inf,%mfgname%;NVIDIA")
+	Found match, 1.CO_DRV.HDAUDIO_FUNC_01_VEN_10DE_DEV_0042
+			Driver 1. D:\Development\Workspace\HwCertifier\result\HDAUDIO\FUNC_01&VEN_10DE&DEV_0042&SUBSYS_103C176B&REV_1001\1.CO_DRV.HDAUDIO_FUNC_01_VEN_10DE_DEV_0042\1
+			Copying from D:\Development\Workspace\HwCertifier\drivers\sp59056\HDAudio\nvhda.inf
+
+FUNC_01&VEN_111D&DEV_7605&SUBSYS_103C176B&REV_1001 ("IDT")
+	Found match, 1.HW_DRV.HDAUDIO_FUNC_01_VEN_111D_DEV_7605_SUBSYS_103C176B
+			Driver 1. D:\Development\Workspace\HwCertifier\result\HDAUDIO\FUNC_01&VEN_111D&DEV_7605&SUBSYS_103C176B&REV_1001\1.HW_DRV.HDAUDIO_FUNC_01_VEN_111D_DEV_7605_SUBSYS_103C176B\1
+			Copying from D:\Development\Workspace\HwCertifier\drivers\sp60317\WDM\Vista\STWRT64.INF
+			Driver 2. D:\Development\Workspace\HwCertifier\result\HDAUDIO\FUNC_01&VEN_111D&DEV_7605&SUBSYS_103C176B&REV_1001\1.HW_DRV.HDAUDIO_FUNC_01_VEN_111D_DEV_7605_SUBSYS_103C176B\2
+			Copying from D:\Development\Workspace\HwCertifier\drivers\sp60317\WDM\WinXP\STHDA.INF
+			Driver 3. D:\Development\Workspace\HwCertifier\result\HDAUDIO\FUNC_01&VEN_111D&DEV_7605&SUBSYS_103C176B&REV_1001\1.HW_DRV.HDAUDIO_FUNC_01_VEN_111D_DEV_7605_SUBSYS_103C176B\3
+			Copying from D:\Development\Workspace\HwCertifier\drivers\sp60317\WDM\WinXP\STHDA64.INF
+
+
+
+Parsing bus DISPLAY
+
+AUO13ED ("@monitor.inf,%generic%;(Standard monitor types)")
+	Found match, 1.CO_STD._PNP09FF
+
+Default_Monitor ("@monitor.inf,%generic%;(Standard monitor types)")
+	Found match, 1.CO_STD._PNP09FF

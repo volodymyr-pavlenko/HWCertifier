@@ -1,0 +1,364 @@
+;
+; PRINTUPG.INF
+;
+; Mapping of Broken OEM printer driver model names to in-box model names
+;
+
+[Version]
+Signature="$Windows NT$"
+Provider=%MS%
+ClassGUID={4D36E97A-E325-11CE-BFC1-08002BE10318}
+Class=PrinterUpgrade
+DriverVer=06/21/2006,6.1.7601.17514
+
+
+;
+; This file is used for two different purposes:
+;
+; 1) To block ALL kernel mode drivers, and map some kernel mode drivers to user-mode drivers.
+;
+; 2) To block bad user-mode driver and to prevent a bad user-mode driver from being installed.
+;
+; KERNEL MODE DRIVERS
+;
+; This section gives the model name mapping.
+;
+; 1) The syntax is
+;
+; "<Kernel Mode Driver Name>"
+;
+;
+; USER MODE DRIVERS
+;
+; This section gives the model name mapping.
+;
+; 1) The syntax is
+;
+;    "<Broken OEM model name>" =  "mm/dd/yyyy"
+;
+;    If the date field is used, only drivers with core driver DLLs older than this date will be deleted.
+;    Make sure year is given in a 4 digit format (i.e. not 98 but 1998)
+;    Make sure date field is separated with a comma.
+;    If there are multiple entries for one single driver to indicate that an older version
+;    is blocked and a newer only warned, make sure these entries are sorted by ascending date
+;
+; 2) In case there is no In-box support for the broken OEM Printer, the
+;    printer driver will be deleted. The syntax is
+;
+;   "<Broken OEM model name>"
+;
+; 3) If the driver has to be deleted but only on the basis of the date 
+;    (as explained above) the syntax is
+;
+;   "<Broken OEM model name>" =  "mm/dd/yyyy"
+;
+;
+[Printer Driver Mapping_Windows NT x86_Version 2]
+
+[Printer Driver Mapping_Windows NT x86_Version 3]
+"EPSON Stylus COLOR 1520" =  "6/1/2001"
+"EPSON Stylus COLOR 440" =  "6/1/2001"
+"EPSON Stylus COLOR 640" =  "6/1/2001"
+"EPSON Stylus COLOR 740" =  "6/1/2001"
+"EPSON Stylus COLOR 850" =  "6/1/2001"
+"EPSON Stylus COLOR 850ne" =  "6/1/2001"
+"EPSON Stylus COLOR 860" =  "6/1/2001"
+"EPSON Stylus Photo 750" =  "6/1/2001"
+"EPSON Stylus Scan 2500" =  "6/1/2001"
+"HP LaserJet 3150"
+"Lexmark Color 4079 plus PS2" =  "1/25/2001"
+"Lexmark Optra C PS2" =  "1/25/2001"
+"Lexmark Optra C710 PS3" =  "1/25/2001"
+"Lexmark Optra Color 1200 PS2" =  "1/25/2001"
+"Lexmark Optra Color 40 PS2" =  "1/25/2001"
+"Lexmark Optra Color 45 PS2" =  "1/25/2001"
+"Lexmark Optra E310 PS2" =  "1/25/2001"
+"Lexmark Optra E312 PS2" =  "1/25/2001"
+"Lexmark Optra Ep PS2" =  "1/25/2001"
+"Lexmark Optra K 1220 PS2" =  "1/25/2001"
+"Lexmark Optra M410 PS3" =  "1/25/2001"
+"Lexmark Optra M412 PS3" =  "1/25/2001"
+"Lexmark Optra N PS2" =  "1/25/2001"
+"Lexmark Optra plus PS2" =  "1/25/2001"
+"Lexmark Optra PS2" =  "1/25/2001"
+"Lexmark Optra S 1255 plus PS3" =  "1/25/2001"
+"Lexmark Optra S 1255 PS2" =  "1/25/2001"
+"Lexmark Optra S 1625 plus PS3" =  "1/25/2001"
+"Lexmark Optra S 1625 PS2" =  "1/25/2001"
+"Lexmark Optra S 1855 plus PS3" =  "1/25/2001"
+"Lexmark Optra S 1855 PS2" =  "1/25/2001"
+"Lexmark Optra S 2455 plus PS3" =  "1/25/2001"
+"Lexmark Optra S 2455 PS2" =  "1/25/2001"
+"Lexmark Optra S PS2" =  "1/25/2001"
+"Lexmark Optra SC 1275 PS2" =  "1/25/2001"
+"Lexmark Optra Se 3455 plus PS3" =  "1/25/2001"
+"Lexmark Optra Se 3455 PS2" =  "1/25/2001"
+"Lexmark Optra T610 PS3" =  "1/25/2001"
+"Lexmark Optra T612 PS3" =  "1/25/2001"
+"Lexmark Optra T614 PS3" =  "1/25/2001"
+"Lexmark Optra T616 PS3" =  "1/25/2001"
+"Lexmark Optra W810 PS3" =  "1/25/2001"
+"NEC SuperScript 1400 Series"
+
+
+; If any of the drivers above use any of the files in the
+; [Excluded Driver Files] section, those drivers will be considered
+; good (irrespective of the date).
+; i.e. if (DRIVER_INFO_3.pDriverPath) is rasdd.dll or unidrv4.dll
+; the driver is considered good and will not be replaced/blocked.
+
+[Excluded Driver Files]
+UNIDRV.DLL
+PSCRIPT5.DLL
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+;
+; Localizable Strings
+;
+[Strings]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+MS="Microsoft"
+
+
